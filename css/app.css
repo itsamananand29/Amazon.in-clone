@@ -201,38 +201,37 @@ border: 1px solid #232f3e;
 }
 
 /* banner section */
-section .section{
-border:0px solid goldenrod;
+.section{
+  position: relative;
+  left: 10px;
+  border: 0px solid green;
+  height: 250px;
+  max-width: 98%;
+  overflow: hidden;
+  
 }
-section .content{
-background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img20/Audio/Gateway/July/One_audio_1500x600._CB428765997_.jpg");
-background-repeat: no-repeat;
-display: flex;
-justify-content: space-between;
-background-position: center top;
-overflow: visible;
+.content{
+  display: flex;
+  
+ }
+.content img{
+  width: 100%;
+} 
+.section #left-slide{
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  z-index: 10;
+  cursor: pointer;
+  color:whitesmoke;
 }
-.content div{
-height: 250px;
-width: fit-content;
-border: 0px solid yellow;
-}
-.content .move-left{
-position: relative;
-left: 10px;
-
-}
-
-.content .move-right{
-position: relative;
-right: 10px;
-}
-#left-slide,#right-slide{
-position: relative;
-top:100px;
-text-decoration: none;
-color: #dddddd;
-
+.section #right-slide{
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  z-index: 10;
+  cursor: pointer;
+  color:whitesmoke;
 }
 /* products section */
 .products{
