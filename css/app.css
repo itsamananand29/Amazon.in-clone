@@ -12,6 +12,41 @@ border: 0px solid green;
 width: 100%;
 
 }
+.sidenav{
+  height: 100%;
+  width: 0%;
+  background-color: whitesmoke;
+  transition: 0.6s;
+  position: absolute;
+  z-index: 11;
+  top:0;
+  bottom: 0;
+  font-display: block;
+  overflow-x: hidden;
+  
+}
+.sidenav a{
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 30px;
+  color: #0f1217;
+}
+.sidenav #navsignin{
+  font-size: 20px;
+  background-color:#232f3e;
+  color: #ebedf0;
+  padding: 14px 30px;
+
+}
+.sidenav .closebtn{
+  position: absolute;
+  top:-10px;
+  right: 1px;
+  font-size: 45px;
+  font-weight: 50;
+  color: #ebedf0;
+}
 
 
 .nav-bar a,span{
@@ -35,13 +70,14 @@ border: 0px solid red;
 }
 .nav-bar-top .nav-left .nav-hamburger-menu{
 border:0px solid purple;
-height: fit-content;
-width: fit-content;
 text-decoration: none;
+box-sizing: border-box;
 margin: 8px;
-padding: 5px ;
+padding: 0px 2px ;
 border: 1px solid #b3c4eb;
 border-radius: 2px;
+font-size: 30px;
+font-weight: 200;
 }
 .nav-bar-top .nav-left .logo-amazon{
 width: 157px;
@@ -216,6 +252,7 @@ border: 1px solid #232f3e;
  }
 .content img{
   width: 100%;
+  
 } 
 .section #left-slide{
   position: absolute;
@@ -252,6 +289,7 @@ align-items: center;
 border-radius: 2px;
 margin: 0px 10px 20px 10px;
 background-color: white;
+z-index: 1;
 
 }
 .products .cards .title{
@@ -315,6 +353,7 @@ justify-content: space-between;
 flex-direction: column;
 align-items: center;
 margin: 0px 10px 20px 10px; 
+z-index: 1;
 }
 .products .cards-signin .title{
 width: 350px;

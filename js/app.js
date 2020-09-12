@@ -1,3 +1,18 @@
+//This is for the side navbar
+function openNav() {
+    document.getElementById("mySidenav").style.width = "330px";
+    document.body.style.backgroundColor = "white";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.body.style.backgroundColor = "white";
+  }
+
+
+
+
+
 //This is to apply hover on the top nav bar 
 
 let navTr =document.querySelectorAll('.nav-bar-top a')
